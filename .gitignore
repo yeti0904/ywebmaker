@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ywebmaker
+ywebmaker.so
+ywebmaker.dylib
+ywebmaker.dll
+ywebmaker.a
+ywebmaker.lib
+ywebmaker-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+out.html

@@ -1,0 +1,20 @@
+# my web page
+#2 my section
+*bold*
+%italic%
+_underlined_
+
+.split
+# my code
+.begin code
+writeln("hello world");
+.end code
+
+.split
+# cool picture
+.image https://via.placeholder.com/150
+
+.split
+# want to search for something?
+click \
+.link https://google.com here!!!
