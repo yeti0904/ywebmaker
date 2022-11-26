@@ -85,6 +85,10 @@ string CompileToHTML(string fname, string[] lines) {
 			bodyCode ~= "<a href='" ~ parts[1] ~ "'>" ~ parts[2] ~ "</a>";
 			continue;
 		}
+		else if (line.startsWith(".title ")) {
+			headCode ~= "<title>" ~ line[".title ".length .. $] ~ "</title>";
+			continue;
+		}
 	
 		for (size_t j = 0; j < line.length; ++j) {
 			auto ch = line[j];
